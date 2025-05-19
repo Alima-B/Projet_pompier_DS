@@ -10,3 +10,13 @@ https://data.london.gov.uk/dataset/london-fire-brigade-incident-records
 Le second jeu de données contient les détails de chaque camion de pompiers envoyé sur les lieux d'un incident depuis janvier 2009. Des informations sont fournies sur l'appareil mobilisé, son lieu de déploiement et les heures d'arrivée sur les lieux de l'incident.
 https://data.london.gov.uk/dataset/london-fire-brigade-mobilisation-records
 
+Ce projet a exploré différentes approches de modélisation, allant des régressions
+linéaires aux algorithmes de classification en passant par des méthodes d'ensemble comme les
+forêts aléatoires et le Boosting ainsi que du Deep Learning.
+
+**Performance des modèles**
+
+**Regression** : Erreur moyenne absolue de 60 secondes.    
+**Classification** : Accuracy de 60% (avec des erreurs faites les valeurs à la limite de deux classes)
+
+La distance entre la casernes intervenant et le lieu de l'incendie s'est avérée être la variable la plus importante dans les prédictions
