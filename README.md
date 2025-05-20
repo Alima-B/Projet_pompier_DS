@@ -15,8 +15,9 @@ linéaires aux algorithmes de classification en passant par des méthodes d'ense
 forêts aléatoires et le Boosting ainsi que du Deep Learning.
 
 **Performance des modèles**
-
-**Regression** : Erreur moyenne absolue de 60 secondes.    
+La performance des régressions a été évaluée par erreur moyenne absolue(MAE)
+Celle des classification par accuracy
+**Regression** : MAE de 60 secondes.    
 **Classification** : Accuracy de 60% (avec des erreurs faites les valeurs à la limite de deux classes)
 
 La distance entre la casernes intervenant et le lieu de l'incendie s'est avérée être la variable la plus importante dans les prédictions
