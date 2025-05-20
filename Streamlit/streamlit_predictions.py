@@ -238,13 +238,11 @@ if page == pages[2] :
         # charge des moedeles de regression et scalers
         @st.cache_resource
         def load_model_reg():
-            RegressionLr = pickle.load(open('ModelesLineaire/lineaire_naif', 'rb'))
             Elastic = pickle.load(open("ModelesLineaire/Elastic", 'rb'))
-            RandomForest_reg = pickle.load(open("ModelesLineaire/RandomForest", 'rb'))
 
-            return RegressionLr,Elastic,RandomForest_reg
+            return Elastic
         
-        RegressionLr,Elastic,RandomForest_reg = load_model_reg()
+        Elastic = load_model_reg()
         
         st.header("Prédiction des temps de réponse avec des modèles de régression")
         st.markdown("""
