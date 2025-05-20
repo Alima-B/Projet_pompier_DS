@@ -14,10 +14,11 @@ Ce projet a exploré différentes approches de modélisation, allant des régres
 linéaires aux algorithmes de classification en passant par des méthodes d'ensemble comme les
 forêts aléatoires et le Boosting ainsi que du Deep Learning.
 
-**Performance des modèles**
-La performance des régressions a été évaluée par erreur moyenne absolue(MAE)
-Celle des classification par accuracy
-**Regression** : MAE de 60 secondes.    
+**Performance des modèles**   
+La performance des régressions a été évaluée par erreur moyenne absolue(MAE)    
+Celle des classifications par accuracy 
+
+**Régression** : MAE de 60 secondes.       
 **Classification** : Accuracy de 60% (avec des erreurs faites les valeurs à la limite de deux classes)
 
 La distance entre la casernes intervenant et le lieu de l'incendie s'est avérée être la variable la plus importante dans les prédictions
